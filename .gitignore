@@ -1,0 +1,58 @@
+# =========================
+# Java / Maven
+# =========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/logs/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# Maven release and build files
+.mvn/
+.mvn/timing.properties
+mvnw
+mvnw.cmd
+
+# =========================
+# IntelliJ IDEA / VS Code
+# =========================
+.idea/
+*.iws
+*.ipr
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# =========================
+# System files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.bak
+*.swp
+*~
+
+# =========================
+# Environment & Config
+# =========================
+.env
+*.env
+application-local.properties
+application-dev.properties
+
+# =========================
+# Uploads / Static data
+# =========================
+src/main/resources/static/uploads/
+!src/main/resources/static/uploads/.gitkeep
